@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto+Slab');
+
+html{background-image: url(https://upload.wikimedia.org/wikipedia/commons/a/a4/Ggb_by_night.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    font-size: 1.5em;
+    color:white;
+}
+a:hover{
+color: red;
+}
+header{
+text-align: center;
+font-family: 'Roboto Slab', serif;
+}
+body{
+    font-family: 'Playfair Display', serif;
+}
+article p{
+    color:whitesmoke;
+}
+.navbar{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.navloc{
+    margin: 1%;
+}
+.images{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.pic {
+    box-sizing: border-box;
+    margin:10px;
+    border: 2px solid red;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+}
+.content, h2{
+    text-align:center; 
+    padding:20px;
+}
+.ContactMe{
+    text-align: center;
+    color:lightblue;
+    border-style:solid;
+    border-color:lightblue;
+    border-radius: 35px;
+    padding:10px 5px 15px 20px;
+}
+@media screen and (min-width:768px) {
+    .navbar{
+        justify-content: flex-end;
+        flex-direction:row;
+    } 
+    .images{
+        justify-content: space-evenly;
+        flex-direction:row;
+    }  
+    .desktopOnly{
+        
+    }
+}
